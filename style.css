@@ -93,3 +93,34 @@ nav a {
   margin: 0;
   font-size: 1.5rem;
 }
+/* plants lover section */
+.plants-lover{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    align-items: center;
+}
+.plants-lover-img{
+    display: flex;
+}
+.plants-lover-img img{
+    width: 100%;
+}
+.trusted-badge{
+    height: 250px;
+    width: 250px;
+    margin-top: -100px;
+    margin-left: -150px;
+}
+.plants-lover-content{
+    max-width: 500px;
+}
+.plants-lover-content h1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.plants-lover-content li{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
