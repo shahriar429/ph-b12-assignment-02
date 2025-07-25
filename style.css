@@ -265,3 +265,76 @@ footer {
   align-items: center;
   gap: 15px;
 }
+/* responsive for small devices */
+@media screen and (max-width: 576px) {
+  header,
+  .plants-section,
+  .latest-deal,
+  .plants-lover,
+  footer {
+    margin-inline: 20px;
+  }
+
+  /* navbar */
+  .nav-link-pc {
+    display: none;
+  }
+
+  /* banner */
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  /* plants section */
+  .plants-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* plants lover section */
+  .plants-lover {
+    flex-direction: column;
+  }
+  .trusted-badge {
+    display: none;
+  }
+
+  /* latest deals section */
+  .deals-info {
+    display: grid;
+    justify-content: center;
+  }
+  .deal-3 {
+    height: 200px;
+    width: 400px;
+  }
+  .deal-3 h3 {
+    font-size: 1.5rem;
+  }
+  .deal-3 a {
+    font-size: 1rem;
+  }
+
+  /* join section */
+  .join-section {
+    padding: 50px;
+  }
+  .subscribe-btn {
+    padding: 20px;
+  }
+
+  /* footer section */
+  footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+  }
+  .footer-links2 {
+    margin-top: 0;
+  }
+  .social-links div {
+    justify-content: flex-start;
+  }
+}
