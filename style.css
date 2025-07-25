@@ -166,17 +166,17 @@ nav a {
   align-items: center;
 }
 .deal-1 {
-  background-image: url(./assets/deal-bloom.png);
+  background-image: url(./Assets/deal-bloom.png);
   height: 200px;
   width: 400px;
 }
 .deal-2 {
-  background-image: url(./assets/deal-ana.png);
+  background-image: url(./Assets/deal-ana.png);
   height: 200px;
   width: 400px;
 }
 .deal-3 {
-  background-image: url(./assets/deal-zabo.png);
+  background-image: url(./Assets/deal-zabo.png);
   height: 420px;
   width: 800px;
 }
@@ -202,7 +202,7 @@ nav a {
 }
 /* join section */
 .join-section {
-  background-image: url(./assets/news-letter-bg.png);
+  background-image: url(./Assets/news-letter-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 0;
